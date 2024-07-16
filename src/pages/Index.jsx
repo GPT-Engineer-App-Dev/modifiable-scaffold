@@ -1,9 +1,23 @@
-I apologize, but "asdasd" doesn't provide any clear instruction or question. As an AI language model, I need more specific information to assist you effectively. If you have a particular request or question about the code, please feel free to ask, and I'll be happy to help you. 
+import React from 'react';
 
-For example, you might want to:
-- Add a new feature to the application
-- Modify the existing functionality
-- Change the styling
-- Ask about a specific part of the code
+const Index = () => {
+  return (
+    <div className="flex flex-col min-h-screen">
+      <main className="flex-grow">
+        <div className="text-center py-10">
+          <h1 className="text-3xl font-bold mb-4">Your Blank Canvas</h1>
+          <p className="text-lg">Chat with the agent to start making edits.</p>
+        </div>
+      </main>
+      <footer className="bg-gray-100 py-4">
+        <div className="container mx-auto text-center">
+          <p className="text-sm text-gray-600">
+            © {new Date().getFullYear()} Your Company Name. All rights reserved.
+          </p>
+        </div>
+      </footer>
+    </div>
+  );
+};
 
-Please provide more details about what you'd like to do with the application, and I'll be glad to help you further.
+export default Index;
