@@ -25,8 +25,8 @@ const App = () => {
   };
 
   return (
-    <div className="flex flex-col min-h-screen">
-      <main className="flex-grow bg-gray-100 p-4">
+    <div className="flex flex-col min-h-screen bg-red-500">
+      <main className="flex-grow p-4">
         <Card className="w-full max-w-md mx-auto">
           <CardHeader>
             <CardTitle>My App</CardTitle>
@@ -58,15 +58,15 @@ const App = () => {
         </Card>
       </main>
 
-      <footer className="bg-gray-200 py-4">
+      <footer className="bg-red-600 py-4 text-white">
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center">
-            <p className="text-sm text-gray-600">© 2023 My App. All rights reserved.</p>
+            <p className="text-sm">© 2023 My App. All rights reserved.</p>
             <nav>
               <ul className="flex space-x-4">
-                <li><a href="#" className="text-sm text-gray-600 hover:text-gray-900">Privacy Policy</a></li>
-                <li><a href="#" className="text-sm text-gray-600 hover:text-gray-900">Terms of Service</a></li>
-                <li><a href="#" className="text-sm text-gray-600 hover:text-gray-900">Contact</a></li>
+                <li><a href="#" className="text-sm hover:text-gray-200">Privacy Policy</a></li>
+                <li><a href="#" className="text-sm hover:text-gray-200">Terms of Service</a></li>
+                <li><a href="#" className="text-sm hover:text-gray-200">Contact</a></li>
               </ul>
             </nav>
           </div>
