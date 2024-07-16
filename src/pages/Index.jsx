@@ -35,7 +35,7 @@ const TodoApp = () => {
           placeholder="Add a new todo"
           className="mr-2"
         />
-        <Button onClick={addTodo} variant="primary">Add</Button>
+        <Button onClick={addTodo} variant="blue">Add</Button>
       </div>
       <ul>
         {todos.map(todo => (
